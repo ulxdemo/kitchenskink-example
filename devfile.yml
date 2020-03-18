@@ -3,7 +3,7 @@ metadata:
 projects:
   - name: kitchensink-example
     source:
-      location: 'https://github.com/ulxdemo/kitchenskink-example'
+      location: 'https://github.com/ulxdemo/kitchenskink-example.git'
       type: git
 components:
   - id: redhat/java8/latest

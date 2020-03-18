@@ -13,7 +13,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- * 
+ *
  * Modifications copyright 2019 Red Hat, Inc.
  */
 package org.jboss.as.quickstarts.kitchensinkjsp.model;
@@ -93,10 +93,10 @@ public class Member implements Serializable {
    public void setPhoneNumber(String phoneNumber) {
       this.phoneNumber = phoneNumber;
    }
-   
-   
+
+
    public String toString(){
 	return getName()+":"+getEmail()+":"+getPhoneNumber();
-	   
+
    }
 }
